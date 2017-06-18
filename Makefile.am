@@ -4,5 +4,5 @@ AM_CPPFLAGS = -std=c++11 -I/${TBLIB_ROOT}/include/tbsys -I/${TBLIB_ROOT}/include
 
 bin_PROGRAMS=webDemo
 
-webDemo_SOURCES=webDemo.cpp
-webDemo_LDADD=-lpthread  -lfcgi -ljsoncpp $(TBLIB_ROOT)/lib/libtbsys.a
+webDemo_SOURCES=user_op.cpp
+webDemo_LDADD=-luriparser -ljsoncpp -lpthread -lfcgi -lfcgi++ $(TBLIB_ROOT)/lib/libtbsys.a
