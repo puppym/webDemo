@@ -108,7 +108,8 @@ int main (void)
                 "<TITLE>echo-cpp</TITLE>\n"
                 "<H1>echo-cpp</H1>\n"
                 "<H4>PID: " << pid << "</H4>\n"
-                "<H4>Request Number: " << ++count << "</H4>\n";
+                "<H4>Request Number: " << ++count << "</H4>\n"
+                "<H4>content :" << content  << "</H4>\n";
 
         cout << "<H4>Request Environment</H4>\n";
         penv(request.envp);

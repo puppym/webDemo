@@ -27,5 +27,5 @@ AC_LANG_POP([C++])
 
 #checks for library functions.
 
-AC_CONFIG_FILES([Makefile])
+AC_CONFIG_FILES([Makefile jsonExample/Makefile])
 AC_OUTPUT
